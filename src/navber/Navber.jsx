@@ -6,7 +6,7 @@ import './Nav.css';
 function Navbar() {
   return (
     <div className="nav_header">
-      <Link to={'/home'}>Home</Link>
+      <Link to={'/'}>Home</Link>
       <Link to={'/about'}>About</Link>
       <Link to={'/blog'}>Blog</Link>
       <Link to={'/product'}>Product</Link>

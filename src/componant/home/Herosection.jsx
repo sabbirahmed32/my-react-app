@@ -1,13 +1,3 @@
-// import React from "react";
-// function Herosection (){
-//     return(
-//         <div>
-//             <h5>Hero section</h5>
-//         </div>
-//     )
-// }
-
-// export default Herosection;
 
 import React from "react";
 import "./Hro.css"
