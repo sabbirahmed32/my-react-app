@@ -1,9 +1,10 @@
 
 import React from "react"
+import Herosection from "./about/Herosection"
 function About(){
     return (
         <div>
-            <h3>About Page</h3>
+            <Herosection></Herosection>
         </div>
     )
 }
