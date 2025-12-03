@@ -7,7 +7,7 @@ function Herosection(props) {
     aboutSection.innerText=('Hello World');
     }
 
-    console.log(props)
+
 
   return (
     <div>
@@ -22,6 +22,22 @@ function Herosection(props) {
               <h5>Product</h5>
               <h5>Name: {props.Aproduct.name}</h5>
               <h5>Price: {props.Aproduct.price}</h5>
+            </div>
+          </div>
+          <div className="col-md-6 mt-5">
+            <div>
+              <h5>Name: {props.arrays[1]}</h5>
+              <h5>Price: </h5>
+            </div>
+          </div>
+          <div className="col-md-6 mt-5">
+            <div>
+           
+              <h5><span>Name: {props.producted[0].name}, <span>Price: {props.producted[0].price}</span></span></h5>
+
+              <h5><span>Name: {props.producted[1].name}, <span>Price: {props.producted[1].price}</span></span></h5>
+              <h5><span>Name: {props.producted[2].name}, <span>Price: {props.producted[2].price}</span></span></h5>
+              
             </div>
           </div>
         </div>
