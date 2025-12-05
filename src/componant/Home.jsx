@@ -2,6 +2,7 @@
 import React from "react";
 import Herosection from "./home/Herosection";
 import Daynamic from "./home/Daynamic";
+import Usestate from "./home/Usestate";
 
 function Home() {
 
@@ -39,9 +40,17 @@ function Home() {
               <Daynamic name='Tabull' age='35'></Daynamic>
             </div>
           </div>
-       
-       
       </div>
+
+    <div className="row">
+      <div className="col-md-6">
+        <Usestate></Usestate>
+      </div>
+    </div>
+
+
+
+
      </div>
      
 
