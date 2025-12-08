@@ -43,7 +43,7 @@ function Home() {
       </div>
 
     <div className="row">
-      <div className="col-md-6">
+      <div className="col-md-3">
         <Usestate></Usestate>
       </div>
     </div>
