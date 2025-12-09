@@ -3,6 +3,7 @@ import React from "react";
 import Herosection from "./home/Herosection";
 import Daynamic from "./home/Daynamic";
 import Usestate from "./home/Usestate";
+import Cartsection from "./home/Cartsection";
 
 function Home() {
 
@@ -41,18 +42,17 @@ function Home() {
             </div>
           </div>
       </div>
-
-    <div className="row">
+     </div>
+     <div className="container">
+          <div className="row">
       <div className="col-md-3">
         <Usestate></Usestate>
       </div>
     </div>
-
-
-
-
+      <div className="col-md-3">
+        <Cartsection></Cartsection>
+      </div>
      </div>
-     
 
      </>
   
