@@ -1,7 +1,16 @@
 import { useState } from "react";
 
 function Cartsection() {
-   const[setproduct, newPrice] = useState(2);
+   const[setproduct, setState] = useState(1);
+
+   const plus =()=>{
+    const newPrice = setproduct + 1;
+    setState(newPrice);
+   }
+   const mynas = () =>{
+    const newPrice = setproduct - 1;
+    setState(newPrice);
+   }
 
 
 
@@ -11,8 +20,8 @@ function Cartsection() {
         <h3 className="text-center">Price: {setproduct}</h3>
       </div>
       <div className="d-flex justify-content-center gap-3">
-        <button>Increase</button>
-        <button>Decrease</button>
+        <button onClick={plus}>Increase</button>
+        <button onClick={mynas}>Decrease</button>
       </div>
     </div>
   );
