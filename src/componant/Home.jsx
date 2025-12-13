@@ -4,6 +4,7 @@ import Herosection from "./home/Herosection";
 import Daynamic from "./home/Daynamic";
 import Usestate from "./home/Usestate";
 import Cartsection from "./home/Cartsection";
+import UseEffect from "./home/UseEffect";
 
 function Home() {
 
@@ -49,11 +50,19 @@ function Home() {
         <Usestate></Usestate>
       </div>
     </div>
-      <div className="col-md-3">
-        <Cartsection></Cartsection>
-      </div>
+     
      </div>
 
+<div className="container">
+  <div className="row mt-5">
+    <div className="con-md-6">
+      <div><UseEffect></UseEffect></div>
+    </div>
+    <div className="col-md-6">
+
+    </div>
+  </div>
+</div>
      </>
   
   )
