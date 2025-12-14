@@ -8,7 +8,7 @@ function Navbar() {
     <div className="nav_header">
       <Link to={'/'}>Home</Link>
       <Link to={'/about'}>About</Link>
-      <Link to={'/blog'}>Blog</Link>
+      <Link to={'/blog'}>Blog API</Link>
       <Link to={'/product'}>Product</Link>
       <Link to={'/contarct'}>Contact Us</Link>
       

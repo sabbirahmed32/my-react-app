@@ -52,17 +52,6 @@ function Home() {
     </div>
      
      </div>
-
-<div className="container">
-  <div className="row mt-5">
-    <div className="con-md-6">
-      <div><UseEffect></UseEffect></div>
-    </div>
-    <div className="col-md-6">
-
-    </div>
-  </div>
-</div>
      </>
   
   )
