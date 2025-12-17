@@ -5,7 +5,7 @@ function SingleData({ singleData }) {
   return (
     <div className="border rounded p-3 mb-3">
       <h5>
-        <strong>Name:</strong> {name}
+        <strong className="text-6xl ">Name:</strong> {name}
       </h5>
       <p>
         <strong>Email:</strong> {email}

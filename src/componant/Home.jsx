@@ -49,6 +49,9 @@ function Home() {
       <div className="col-md-3">
         <Usestate></Usestate>
       </div>
+      <div className="col-md-3">
+        <Cartsection></Cartsection>
+      </div>
     </div>
      
      </div>

@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import SingleData from "./SingleData";
+import "./Hro.css"
 
 function UseEffect() {
   const [allData, setAllData] = useState([]);
@@ -17,15 +18,11 @@ function UseEffect() {
       </div>
       <div className="card mt-4 mb-4 p-2">
         <h3 className="text-center">Api data: {allData.length}</h3>
-        <div className="container">
-          <div className="row">
-            <div className="col-md-6">
+          <div className="user-container">
               {allData.map((singleData) => (
                 <SingleData key={singleData.id} singleData={singleData} />
               ))}
             </div>
-          </div>
-        </div>
       </div>
     </>
   );

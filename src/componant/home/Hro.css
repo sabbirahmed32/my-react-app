@@ -105,3 +105,12 @@
   padding: 10px 5px;
   background-color: #3cbf00;
 }
+
+
+
+/* API Css */
+.user-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}

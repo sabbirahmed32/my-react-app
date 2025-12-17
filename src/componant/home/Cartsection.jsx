@@ -1,27 +1,28 @@
-import { useState } from "react";
+import React, { useState } from 'react'
 
 function Cartsection() {
-   const [Price, setstate]= useState(0);
+  const [count, setCount]= useState(0);
 
-    let plus = () =>{
-      let newPrice = Price + 1;
-      setstate(newPrice);
-    }
-
-    let mynas = () =>{
-      let newPrice = Price - 1;
-      setstate(newPrice);
-    }
+  let plus = () =>{
+    let newCount = count + 1;
+    setCount(newCount);
+  }
+  let mynas =()=>{
+    let newCount = count-1;
+    setCount(newCount);
+  }
   return (
-    <div>
-      <div className="card mt-4 mb-4 p-2">
-        <h3 className="text-center">Price: {Price}</h3>
+    <>
+    <div className="card mt-5">
+      <h4 className='text-center'>price quantity: {count}</h4>
+       </div>
+      <div className="d-flex justify-content-center gap-3 pt-4">
+        <button onClick={plus}>+</button>
+        <button onClick={mynas}>-</button>
       </div>
-      <div className="d-flex justify-content-center gap-3">
-        <button onClick={plus}>Increase</button>
-        <button onClick={mynas}>Decrease</button>
-      </div>
-    </div>
-  );
+   
+    </>
+  )
 }
-export default Cartsection;
+
+export default Cartsection
