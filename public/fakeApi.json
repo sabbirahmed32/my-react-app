@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "username": "johndoe",
+    "email": "john@example.com",
+    "phone": "+1-202-555-0123",
+    "address": {
+      "street": "123 Main St",
+      "city": "New York",
+      "zip": "10001",
+      "country": "USA"
+    },
+    "role": "admin",
+    "status": "active"
+  },
+  {
+    "id": 2,
+    "name": "Sarah Smith",
+    "username": "sarahs",
+    "email": "sarah@example.com",
+    "phone": "+44-7700-900123",
+    "address": {
+      "street": "45 Oxford Road",
+      "city": "London",
+      "zip": "SW1A 1AA",
+      "country": "UK"
+    },
+    "role": "customer",
+    "status": "inactive"
+  },
+  {
+    "id": 3,
+    "name": "Alex Johnson",
+    "username": "alexj",
+    "email": "alex@example.com",
+    "phone": "+880-1711-223344",
+    "address": {
+      "street": "House 12, Road 5",
+      "city": "Dhaka",
+      "zip": "1207",
+      "country": "Bangladesh"
+    },
+    "role": "customer",
+    "status": "active"
+  }
+]

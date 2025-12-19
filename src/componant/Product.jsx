@@ -1,8 +1,11 @@
-import React from 'react'
+import Fakeapi from "./fakeapi/Fakeapi"
 
 function Product() {
+
   return (
-    <div>Product</div>
+    <div>
+      <Fakeapi></Fakeapi>
+    </div>
   )
 }
 

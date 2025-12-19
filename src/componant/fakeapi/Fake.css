@@ -1,0 +1,7 @@
+/* API Css */
+.user-container{
+  margin-top: 30px;  
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
