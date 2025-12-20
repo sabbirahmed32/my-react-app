@@ -6,7 +6,7 @@ function Fakeapi() {
   const [fakeData, setFakedata] = useState([]);
  
   useEffect(() => {
-    fetch('/fakeApi.json')
+    fetch('/fakeData.json')
       .then(res => res.json())
       .then(data => setFakedata(data))
       .catch(err => console.error(err));

@@ -1,0 +1,29 @@
+[
+  {
+    "id": 101,
+    "name": "Wireless Mouse",
+    "price": 25.99,
+    "stock": 120,
+    "category": "Electronics",
+    "rating": 4.5,
+    "image": "mouse.jpg"
+  },
+  {
+    "id": 102,
+    "name": "Mechanical Keyboard",
+    "price": 79.99,
+    "stock": 60,
+    "category": "Electronics",
+    "rating": 4.8,
+    "image": "keyboard.jpg"
+  },
+  {
+    "id": 103,
+    "name": "Cotton T-Shirt",
+    "price": 15.5,
+    "stock": 200,
+    "category": "Fashion",
+    "rating": 4.2,
+    "image": "tshirt.jpg"
+  }
+]
